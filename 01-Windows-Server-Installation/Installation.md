@@ -59,7 +59,7 @@ Selected Windows Server 2022 Standard (Desktop Experience) and completed the ins
 
 ![Install](screenshots/03-installing-windows.png)
 
-why? 
+**why?** 
 Selected Desktop Experience because it provides a graphical interface, making it easier to learn Windows Server administration before transitioning to Server Core environments.
 
 ---
@@ -85,7 +85,7 @@ Renamed the computer to **DC01**. Restarted the server to apply the hostname cha
 
 ![Rename](screenshots/06-computer-name.png)
 
-why?
+**why?**
 Renamed the server to DC01 to provide a meaningful hostname before promoting it to a Domain Controller. Using descriptive names simplifies server identification and administration.
 
 ---
@@ -104,7 +104,7 @@ Set VirtualBox Network to Host-only Network.
 
 ![Configure Network](screenshots/08-configure-network.png)
 
-why?
+**why?**
 Configured the virtual machine to use a Host-only Adapter so the server could communicate with other virtual machines while remaining isolated from the external network. This configuration is ideal for Active Directory lab environments.
 
 ---
@@ -122,7 +122,7 @@ Initially configured Google's public DNS (8.8.8.8) for internet name resolution.
 
 ![Configure Static IP](screenshots/09-static-ip.png)
 
-why?
+**why?** 
 Configured a static IPv4 address because Active Directory Domain Controllers require a fixed IP address. Dynamic IP addresses can cause DNS and authentication issues if the address changes.
 
 ---
