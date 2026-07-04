@@ -2,7 +2,7 @@
 
 ## Overview 
 
-In this section I installed Active Directory Domain Services (AD DS) and promoted the Windows Server to a Domain Controller
+In this lab, I installed Active Directory Domain Services (AD DS) on Windows Server 2022 and promoted the server to a Domain Controller by creating a new Active Directory forest. This provides the foundation for centralized authentication, user management, Group Policy, and domain administration.
 
 ## Objective
 
