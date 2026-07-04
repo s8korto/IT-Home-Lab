@@ -2,7 +2,7 @@
 
 ## Overview 
 
-In this lab, I installed Active Directory Domain Services (AD DS) on Windows Server 2022 and promoted the server to a Domain Controller by creating a new Active Directory forest. This provides the foundation for centralized authentication, user management, Group Policy, and domain administration.
+In this lab, I installed Active Directory Domain Services (AD DS) on Windows Server 2022 and promoted the server to a Domain Controller by creating a new Active Directory forest. This lab establishes the foundation for centralized authentication, user and computer management, Group Policy, and domain administration in a Windows Server environment.
 
 ## Objective
 
@@ -321,6 +321,17 @@ In this lab, I successfully:
 - Verified the Active Directory installation using Active Directory Users and Computers (ADUC).
 
 The environment is now ready for creating Organizational Units (OUs), user accounts, security groups, Group Policy Objects (GPOs), and joining Windows client computers to the domain.
+
+---
+
+## Key Takeaways
+
+- Active Directory Domain Services (AD DS) provides centralized identity and resource management.
+- A Domain Controller authenticates users and computers within the domain.
+- A forest is the highest-level structure in Active Directory.
+- DNS is a critical dependency for Active Directory.
+- The DSRM password is used only for Active Directory recovery.
+- Active Directory Users and Computers (ADUC) is the primary management console for administering the domain.
 
 
 
