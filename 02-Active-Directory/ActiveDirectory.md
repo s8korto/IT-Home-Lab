@@ -198,7 +198,21 @@ Leave default location:
 - Logs
 - SYSVOL
 
-![Paths](screenshots/09-paths.png)
+![Paths](screenshots/10-paths.png)
+
+---
+
+### 11. Prerequisite Check
+
+Windows performs several validation checks.
+
+If everything passes:
+
+Click
+
+![Prerequisites](screenshots/11-prerequisites.png)
+
+
 
 
 
