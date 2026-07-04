@@ -226,9 +226,13 @@ If no critical errors are found, the server is ready to be promoted to a Domain 
 
 ---
 
+### 12. Automatic Restart
 
+The server automatically restarts.
 
+![Reboot](screenshots/11-reboot.png)
 
+---
 
 
 
