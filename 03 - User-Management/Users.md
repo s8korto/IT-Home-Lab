@@ -174,6 +174,25 @@ After disabling the account, a small down-arrow icon will appear on the user acc
 
 It prevents sign-in without deleting the account, allowing administrators to restore access later if needed.
 
+---
+
+### 10. Move a User Between Organizational Units (OUs)
+
+Move a user account to a different Organizational Unit (OU) to reflect changes in department or organizational structure.
+
+1. Right-click **Jane Doe**.
+2. Select **Move**.
+3. Choose the **HR** OU.
+4. Click **OK**.
+
+![Move User Between OUs](screenshots/10-move-user.png)
+
+**Key Idea**
+
+Moving a user between OUs changes where the account is managed in Active Directory. This allows administrators to organize users by department and apply different Group Policy settings without affecting the user's account or group memberships.
+
+
+
 
 
 
