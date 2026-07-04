@@ -108,6 +108,27 @@ Create each user by repeating the same steps as before and placing them in the a
 
 ![Users Created](screenshots/05-users-created.png)
 
+---
+
+### 6. Create a Security Group
+
+Create a security group to manage permissions for users in the IT department.
+
+1. Right-click the **IT** OU.
+2. Select **New** → **Group**.
+3. Enter the following settings:
+   - **Group name:** IT Support
+   - **Group scope:** Global
+   - **Group type:** Security
+4. Click **OK**.
+
+![Create Security Group](screenshots/06-create-group.png)
+
+---
+
+
+
+
 
 
 
