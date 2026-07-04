@@ -91,6 +91,22 @@ Create a new user account within the **IT** Organizational Unit (OU).
 
 ---
 
+### 5. Create Additional User Accounts
+
+Create a few more user accounts to simulate a small Active Directory environment.
+
+Create the following users:
+
+| First Name | Last Name | Username | OU |
+|------------|-----------|----------|----|
+| Jane | Doe | jdoe | IT |
+| David | Lee | dlee | HR |
+| Sarah | Brown | sbrown | HR |
+| John | Smite | jsmite | IT |
+
+Create each user by repeating the same steps as before and placing them in the appropriate Organizational Unit (OU).
+
+![Users Created](screenshots/05-users-created.png)
 
 
 
