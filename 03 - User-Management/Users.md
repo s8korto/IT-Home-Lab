@@ -139,6 +139,25 @@ Add users to the **IT Support** security group to simplify permission management
 
 ![Add Group Members](screenshots/07-group-members.png)
 
+---
+
+### 8. Reset a User Password
+
+Reset the password for an existing user account.
+
+1. Right-click a user account (e.g., **John Smith**).
+2. Select **Reset Password**.
+3. Enter a new password (e.g., **NewPassword123!**).
+4. Click **OK**.
+
+![Reset User Password](screenshots/08-reset-password.png)
+
+**Key Idea**
+
+Active Directory allows administrators to securely reset passwords and restore user access without recreating the account.
+
+---
+
 
 
 
