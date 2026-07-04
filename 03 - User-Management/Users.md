@@ -65,6 +65,21 @@ Creating separate OUs for different departments helps organize Active Directory 
 
 ---
 
+### 3. Create a User Account
+
+Create a new user account within the **IT** Organizational Unit (OU).
+
+1. Right-click the **IT** OU.
+2. Select **New** → **User**.
+3. Enter the following information:
+   - **First name:** John
+   - **Last name:** Smith
+   - **User logon name:** jsmith
+4. Click **Next**.
+
+![Create New User](screenshots/03-new-user.png)
+
+---
 
 
 
