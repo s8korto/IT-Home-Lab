@@ -191,6 +191,28 @@ Move a user account to a different Organizational Unit (OU) to reflect changes i
 
 Moving a user between OUs changes where the account is managed in Active Directory. This allows administrators to organize users by department and apply different Group Policy settings without affecting the user's account or group memberships.
 
+---
+
+### 11. Rename a User Account
+
+Rename a user account to reflect changes such as a legal name change or a correction to the user's display name.
+
+1. Right-click **John Smith**.
+2. Select **Rename**.
+3. Enter the new name (e.g., **John Wilson**).
+4. Press **Enter** to save the change.
+
+![Rename User Account](screenshots/11-rename-user.png)
+
+**Key Idea**
+
+Renaming a user updates the account's display name in Active Directory. The user's logon name (username) remains unchanged unless it is manually updated in the account properties.
+
+---
+
+
+
+
 
 
 
