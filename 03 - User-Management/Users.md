@@ -44,6 +44,26 @@ Instead of storing users in the default **Users** container, create an Organizat
 
 Organizational Units (OUs) provide a logical way to organize Active Directory objects. They simplify administration, allow Group Policies to be applied to specific departments, and make user management easier than storing all accounts in the default Users container.
 
+---
+
+### 2. Create Another Organizational Unit (OU)
+
+Create another Organizational Unit (OU) to represent a different department.
+
+For this lab, create an OU named **HR** by repeating the same steps as before.
+
+1. Right-click your domain (e.g., **homelab.local**).
+2. Select **New** → **Organizational Unit**.
+3. Enter **HR** as the name.
+4. Click **OK**.
+
+![Second OU](screenshots/02-second-ou.png)
+
+**Key Idea**
+
+Creating separate OUs for different departments helps organize Active Directory objects and allows administrators to apply different Group Policy settings and permissions to each department independently.
+
+---
 
 
 
