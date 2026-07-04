@@ -26,3 +26,28 @@ Create and manage Active Directory users, Organizational Units (OUs), and securi
 - Administrator account
 
 --- 
+
+## Steps
+
+### 1. Create an Organizational Unit (OU)
+
+Instead of storing users in the default **Users** container, create an Organizational Unit (OU) to organize accounts by department or function.
+
+1. Right-click your domain (e.g., **homelab.local**).
+2. Select **New** → **Organizational Unit**.
+3. Enter **IT** as the name.
+4. Click **OK**.
+
+![First OU](screenshots/01-first-ou.png)
+
+**Key Idea**
+
+Organizational Units (OUs) provide a logical way to organize Active Directory objects. They simplify administration, allow Group Policies to be applied to specific departments, and make user management easier than storing all accounts in the default Users container.
+
+
+
+
+
+
+
+
