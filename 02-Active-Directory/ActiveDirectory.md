@@ -230,10 +230,29 @@ If no critical errors are found, the server is ready to be promoted to a Domain 
 
 The server automatically restarts.
 
-![Reboot](screenshots/11-reboot.png)
+![Reboot](screenshots/12-reboot.png)
 
 ---
 
+### 13. Sign In to the Domain
+
+After the server restarts, sign in using one of the following accounts:
+
+- `HOMELAB\Administrator`
+- `Administrator@homelab.local`
+
+![Login Domain Administrator](screenshots/13-login-domain-admin.png)
+
+### Why?
+
+After the server is promoted to a Domain Controller, the local Administrator account becomes the **domain Administrator** for the new Active Directory domain.
+
+Successfully signing in confirms that:
+
+- The server has been promoted to a Domain Controller.
+- The `homelab.local` Active Directory domain has been created successfully.
+- DNS and Active Directory services are functioning correctly.
+- The server is ready for domain administration, including creating users, groups, organizational units (OUs), and joining client computers to the domain.
 
 
 
