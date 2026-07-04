@@ -188,6 +188,18 @@ This warning appears because there is **no existing parent DNS zone** to delegat
 
 The Active Directory Domain Services installation will automatically configure the DNS server for the new domain (`homelab.local`), allowing domain clients to locate domain controllers and other network resources.
 
+---
+
+### 10. Paths
+
+Leave default location: 
+
+- Database
+- Logs
+- SYSVOL
+
+![Paths](screenshots/09-paths.png)
+
 
 
 
