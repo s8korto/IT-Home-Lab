@@ -55,3 +55,21 @@ Before installing Active Directory Domain Services, ensure the following require
 
 ## Installation Steps
 
+### 1. Open the Add Roles and Features Wizard
+
+Launch the Add Roles and Features Wizard from Server Manager to begin installing Active Directory Domain Services (AD DS). This wizard allows Windows Server roles and features to be added to the server.
+
+Instructions
+
+1. Open Server Manager.
+2. Click Manage in the upper-right corner.
+3. Select Add Roles and Features.
+
+![Server Manager](screenshots/01-server-manager.png)
+
+**why**
+
+The Add Roles and Features Wizard is used to install server roles such as Active Directory Domain Services (AD DS), DNS, DHCP, and File Services. In this lab, it is used to install AD DS so the server can later be promoted to a Domain Controller.
+
+
+
