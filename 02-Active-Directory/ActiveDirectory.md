@@ -88,6 +88,18 @@ The Role-based or feature-based installation option is used when installing serv
 
 In this lab, it is used to install the Active Directory Domain Services (AD DS) role.
 
+## 3. Select the Destination Server
+
+Select the local server that will host the Active Directory Domain Services (AD DS) role, then click Next. 
+
+![Select Server](screenshots/03-select-server.png)
+
+**why**
+
+The destination server specifies where the Active Directory Domain Services (AD DS) role will be installed. In this lab, the local Windows Server is selected because it will later be promoted to the Domain Controller for the network.
+
+
+
 
 
 
