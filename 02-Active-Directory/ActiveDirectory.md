@@ -152,7 +152,7 @@ The root domain (`homelab.local`) becomes the first domain in the forest, allowi
 
 homelab.local is used as an internal domain name for this lab environment. It is intended only for private network use and provides a realistic Active Directory structure for learning and testing.
 
---
+---
 
 ### 8. Domain Controller Options
 
@@ -169,6 +169,26 @@ The default settings are suitable for a new Active Directory environment:
 - **Read Only Domain Controller (RODC)** – Leave this **unchecked** because this is the first writable domain controller in the domain.
 
 Create a strong **Directory Services Restore Mode (DSRM)** password. This password is used to boot the domain controller into recovery mode for troubleshooting, restoring Active Directory, or performing maintenance tasks. It is separate from the domain administrator password and should be stored securely.
+
+---
+
+### 9. DNS Options
+
+The wizard may display the following warning:
+
+> **A delegation for this DNS server cannot be created because the authoritative parent zone cannot be found or does not run Windows DNS.**
+
+This is expected in a home lab. Click **Next** to continue.
+
+![DNS Options](screenshots/09-dns-options.png)
+
+**why?**
+
+This warning appears because there is **no existing parent DNS zone** to delegate the new domain to. In a home lab, you are creating the first Active Directory domain and DNS infrastructure from scratch, so there is no parent DNS server available.
+
+The Active Directory Domain Services installation will automatically configure the DNS server for the new domain (`homelab.local`), allowing domain clients to locate domain controllers and other network resources.
+
+
 
 
 
