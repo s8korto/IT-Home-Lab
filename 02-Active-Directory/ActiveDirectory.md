@@ -204,13 +204,27 @@ Leave default location:
 
 ### 11. Prerequisite Check
 
-Windows performs several validation checks.
+The wizard performs a series of validation checks to ensure the server is ready to be promoted to a Domain Controller.
 
-If everything passes:
+Review the results. If all prerequisite checks pass, click **Install**.
 
-Click
+> **Note:** You may see warnings about DNS delegation. These are expected in a home lab environment and do not prevent the installation from continuing.
+
 
 ![Prerequisites](screenshots/11-prerequisites.png)
+
+**why?**
+
+Before promoting the server to a Domain Controller, Windows verifies that the required configuration is in place, including:
+
+- Active Directory Domain Services is installed.
+- Required DNS settings are configured.
+- The domain name and NetBIOS name are valid.
+- The server meets the requirements to host a new Active Directory forest.
+
+If no critical errors are found, the server is ready to be promoted to a Domain Controller.
+
+---
 
 
 
