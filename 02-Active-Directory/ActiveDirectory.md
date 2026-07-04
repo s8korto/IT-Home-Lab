@@ -75,7 +75,7 @@ The Add Roles and Features Wizard is used to install Windows Server roles and fe
 
 Select Role-based or feature-based installation.
 
-![Add Role](screenshots/01-add-roles.png)
+![Add Role](screenshots/02-add-roles.png)
 
 **why** 
 
