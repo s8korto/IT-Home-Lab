@@ -254,6 +254,40 @@ Successfully signing in confirms that:
 - DNS and Active Directory services are functioning correctly.
 - The server is ready for domain administration, including creating users, groups, organizational units (OUs), and joining client computers to the domain.
 
+--- 
+
+### 14. Verify Active Directory
+
+Open **Server Manager** and navigate to:
+
+**Tools** → **Active Directory Users and Computers**
+
+Expand the **homelab.local** domain.
+
+You should see the default Active Directory containers, including:
+
+- **Builtin**
+- **Computers**
+- **Domain Controllers**
+- **Users**
+
+![Active Directory Users and Computers](screenshots/14-active-directory-users-computers.png)
+
+### Why?
+
+Opening **Active Directory Users and Computers (ADUC)** verifies that the Active Directory domain was created successfully and that the server is functioning as a Domain Controller.
+
+The default containers have the following purposes:
+
+- **Builtin** – Contains built-in security groups used by Windows.
+- **Computers** – Stores domain-joined computers that have not been moved into an Organizational Unit (OU).
+- **Domain Controllers** – Contains all Domain Controllers in the domain.
+- **Users** – Contains the default user and group accounts, including the **Administrator** account.
+
+Seeing these default containers confirms that Active Directory has been installed and configured correctly, and the domain is ready for managing users, groups, Organizational Units (OUs), and Group Policy.
+
+
+
 
 
 
