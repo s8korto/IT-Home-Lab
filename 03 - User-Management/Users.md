@@ -126,6 +126,19 @@ Create a security group to manage permissions for users in the IT department.
 
 ---
 
+### 7. Add Users to the Security Group
+
+Add users to the **IT Support** security group to simplify permission management.
+
+1. Right-click the **IT Support** group and select **Properties**.
+2. Open the **Members** tab.
+3. Click **Add**.
+4. Enter the usernames of the IT users (e.g., **jsmith** and **jdoe**).
+5. Click **Check Names**, then **OK**.
+6. Click **Apply**, then **OK**.
+
+![Add Group Members](screenshots/07-group-members.png)
+
 
 
 
