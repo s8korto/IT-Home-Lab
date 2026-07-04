@@ -35,5 +35,19 @@ Install Active Directory Domain Services (AD DS) on Windows Server 2022 and prom
 
 ---
 
+## Prerequisites
 
+Before installing Active Directory Domain Services, ensure the following requirements have been completed:
+
+- Windows Server 2022 has been successfully installed.
+- The server has been assigned a static IP address.
+- The server has been renamed (recommended: DC01).
+- Initial server configuration has been completed.
+- Administrator account is available for installation.
+- The server is connected to the Host-Only network.
+- Windows Server is fully booted and accessible through Server Manager.
+
+---
+
+## Installation Steps
 
