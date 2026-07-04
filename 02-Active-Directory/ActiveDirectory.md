@@ -92,7 +92,7 @@ In this lab, it is used to install the Active Directory Domain Services (AD DS) 
 
 ---
 
-## 3. Select the Destination Server
+### 3. Select the Destination Server
 
 Select the local server that will host the Active Directory Domain Services (AD DS) role, then click Next. 
 
@@ -104,7 +104,7 @@ The destination server specifies where the Active Directory Domain Services (AD 
 
 ---
 
-## 4. Select Server Roles
+### 4. Select Server Roles
 
 Select Active Directory Domain Services, then click Add Features when prompted.
 
@@ -113,7 +113,7 @@ Select Active Directory Domain Services, then click Add Features when prompted.
 
 ---
 
-## 5. Install Active Directory Domain Services 
+### 5. Install Active Directory Domain Services 
 
 Begin the installation of the Active Directory Domain Services (AD DS) role.
 
@@ -134,9 +134,23 @@ After the Active Directory Domain Services role has been installed successfully,
 
 ![Promote Server](screenshots/06-promote-server.png)
 
+---
 
+### 7. Deployment Configuration
 
+Choose Add a new forest and Root domain: homelab.local.
 
+![Deployment Configure](screenshots/07-deployment-config.png)
+
+**why?**
+
+A **forest** is the highest-level logical structure in Active Directory. It contains one or more domains and defines the security boundary for the entire Active Directory environment.
+
+Because this is a new home lab with no existing Active Directory infrastructure, a **new forest** must be created. 
+
+The root domain (`homelab.local`) becomes the first domain in the forest, allowing the server to manage users, computers, groups, and other Active Directory resources.
+
+homelab.local is used as an internal domain name for this lab environment. It is intended only for private network use and provides a realistic Active Directory structure for learning and testing.
 
 
 
