@@ -111,6 +111,10 @@ Select Active Directory Domain Services, then click Add Features when prompted.
 
 ![Select AD-DS](screenshots/04-select-ad-ds.png)
 
+**Why?**
+
+Active Directory Domain Services (AD DS) provides the directory service used to store and manage users, computers, groups, and security policies. Installing this role is required before the server can be promoted to a Domain Controller.
+
 ---
 
 ### 5. Install Active Directory Domain Services 
@@ -126,6 +130,10 @@ Begin the installation of the Active Directory Domain Services (AD DS) role.
 
 ![Install](screenshots/05-install.png)
 
+**Why?**
+
+Installing the AD DS role copies the required binaries and management tools onto the server. At this stage the server is not yet a Domain Controller—it simply has the components needed to become one.
+
 ---
 
 ### 6. Promote Server to Domain Controller
@@ -133,6 +141,10 @@ Begin the installation of the Active Directory Domain Services (AD DS) role.
 After the Active Directory Domain Services role has been installed successfully, the server must be promoted to a Domain Controller to create and manage an Active Directory domain.
 
 ![Promote Server](screenshots/06-promote-server.png)
+
+**Why?**
+
+Installing Active Directory Domain Services alone does not create a domain. Promoting the server configures Active Directory, installs DNS (if selected), creates the domain database, and converts the server into a Domain Controller.
 
 ---
 
@@ -200,6 +212,12 @@ Leave default location:
 
 ![Paths](screenshots/10-paths.png)
 
+**Why?**
+
+The default paths store the Active Directory database (NTDS), log files, and SYSVOL folder in their standard locations.
+
+For a production environment, these locations may be placed on separate storage volumes for improved performance and resilience. For a home lab, the default locations are appropriate.
+
 ---
 
 ### 11. Prerequisite Check
@@ -232,6 +250,10 @@ The server automatically restarts.
 
 ![Reboot](screenshots/12-reboot.png)
 
+**Why?**
+
+The restart completes the promotion process. During reboot, Windows configures Active Directory services, DNS, SYSVOL, and the domain database before bringing the Domain Controller online.
+
 ---
 
 ### 13. Sign In to the Domain
@@ -243,7 +265,7 @@ After the server restarts, sign in using one of the following accounts:
 
 ![Login Domain Administrator](screenshots/13-login-domain-admin.png)
 
-### Why?
+**Why?**
 
 After the server is promoted to a Domain Controller, the local Administrator account becomes the **domain Administrator** for the new Active Directory domain.
 
@@ -273,7 +295,7 @@ You should see the default Active Directory containers, including:
 
 ![Active Directory Users and Computers](screenshots/14-active-directory-users-computers.png)
 
-### Why?
+**Why?**
 
 Opening **Active Directory Users and Computers (ADUC)** verifies that the Active Directory domain was created successfully and that the server is functioning as a Domain Controller.
 
