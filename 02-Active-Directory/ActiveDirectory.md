@@ -158,7 +158,7 @@ homelab.local is used as an internal domain name for this lab environment. It is
 
 Leave the default settings selected and create a **Directory Services Restore Mode (DSRM)** password.
 
-![Domain Options](screenshots/07-domain-options.png)
+![Domain Options](screenshots/08-domain-options.png)
 
 **why?**
 
