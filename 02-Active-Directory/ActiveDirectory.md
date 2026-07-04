@@ -204,7 +204,7 @@ The Active Directory Domain Services installation will automatically configure t
 
 ### 10. Paths
 
-Leave default location: 
+Leave the default locations for: 
 
 - Database
 - Logs
