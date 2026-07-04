@@ -152,6 +152,25 @@ The root domain (`homelab.local`) becomes the first domain in the forest, allowi
 
 homelab.local is used as an internal domain name for this lab environment. It is intended only for private network use and provides a realistic Active Directory structure for learning and testing.
 
+--
+
+### 8. Domain Controller Options
+
+Leave the default settings selected and create a **Directory Services Restore Mode (DSRM)** password.
+
+![Domain Options](screenshots/07-domain-options.png)
+
+**why?**
+
+The default settings are suitable for a new Active Directory environment:
+
+- **DNS Server** – Installs the DNS Server role, which Active Directory uses to locate domain resources.
+- **Global Catalog (GC)** – Stores a searchable copy of Active Directory objects, allowing users and computers to quickly locate resources across the domain.
+- **Read Only Domain Controller (RODC)** – Leave this **unchecked** because this is the first writable domain controller in the domain.
+
+Create a strong **Directory Services Restore Mode (DSRM)** password. This password is used to boot the domain controller into recovery mode for troubleshooting, restoring Active Directory, or performing maintenance tasks. It is separate from the domain administrator password and should be stored securely.
+
+
 
 
 
