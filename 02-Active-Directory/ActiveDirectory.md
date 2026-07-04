@@ -308,6 +308,21 @@ The default containers have the following purposes:
 
 Seeing these default containers confirms that Active Directory has been installed and configured correctly, and the domain is ready for managing users, groups, Organizational Units (OUs), and Group Policy.
 
+---
+
+## Conclusion
+
+In this lab, I successfully:
+
+- Installed the Active Directory Domain Services (AD DS) role.
+- Promoted the server to a Domain Controller.
+- Created the `homelab.local` Active Directory forest.
+- Configured DNS for the domain.
+- Verified the Active Directory installation using Active Directory Users and Computers (ADUC).
+
+The environment is now ready for creating Organizational Units (OUs), user accounts, security groups, Group Policy Objects (GPOs), and joining Windows client computers to the domain.
+
+
 
 
 
