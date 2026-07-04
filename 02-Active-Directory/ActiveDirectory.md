@@ -71,6 +71,8 @@ Instructions
 
 The Add Roles and Features Wizard is used to install Windows Server roles and features. In this lab, it is used to install Active Directory Domain Services (AD DS), which is required before the server can be promoted to a Domain Controller.
 
+---
+
 ### 2. Select the Installation Type 
 
 Select Role-based or feature-based installation.
@@ -88,6 +90,8 @@ The Role-based or feature-based installation option is used when installing serv
 
 In this lab, it is used to install the Active Directory Domain Services (AD DS) role.
 
+---
+
 ## 3. Select the Destination Server
 
 Select the local server that will host the Active Directory Domain Services (AD DS) role, then click Next. 
@@ -97,6 +101,18 @@ Select the local server that will host the Active Directory Domain Services (AD 
 **why**
 
 The destination server specifies where the Active Directory Domain Services (AD DS) role will be installed. In this lab, the local Windows Server is selected because it will later be promoted to the Domain Controller for the network.
+
+---
+
+## 4. Select Server Roles
+
+Select Active Directory Domain Services, then click Add Features when prompted.
+
+
+![Select ad-ds](screenshots/04-select-ad-ds.png)
+
+
+
 
 
 
