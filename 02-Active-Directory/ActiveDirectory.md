@@ -59,7 +59,7 @@ Before installing Active Directory Domain Services, ensure the following require
 
 Open the Add Roles and Features Wizard from Server Manager to begin installing the Active Directory Domain Services (AD DS) role. 
 
-Instructions
+**Instructions**
 
 1. Open Server Manager.
 2. Click Manage in the upper-right corner.
@@ -67,7 +67,7 @@ Instructions
 
 ![Server Manager](screenshots/01-server-manager.png)
 
-**why**
+**why?**
 
 The Add Roles and Features Wizard is used to install Windows Server roles and features. In this lab, it is used to install Active Directory Domain Services (AD DS), which is required before the server can be promoted to a Domain Controller.
 
@@ -98,7 +98,7 @@ Select the local server that will host the Active Directory Domain Services (AD 
 
 ![Select Server](screenshots/03-select-server.png)
 
-**why**
+**why?**
 
 The destination server specifies where the Active Directory Domain Services (AD DS) role will be installed. In this lab, the local Windows Server is selected because it will later be promoted to the Domain Controller for the network.
 
@@ -109,7 +109,23 @@ The destination server specifies where the Active Directory Domain Services (AD 
 Select Active Directory Domain Services, then click Add Features when prompted.
 
 
-![Select ad-ds](screenshots/04-select-ad-ds.png)
+![Select AD-DS](screenshots/04-select-ad-ds.png)
+
+---
+
+## 5. Install Active Directory Domain Services 
+
+Begin the installation of the Active Directory Domain Services (AD DS) role.
+
+**Instructions**
+
+1. Review the installation summary.
+2. Confirm that Active Directory Domain Services is listed.
+3. Click Install.
+4. Wait for the installation to complete.
+
+![Install](screenshots/05-install.png)
+
 
 
 
