@@ -324,6 +324,20 @@ The environment is now ready for creating Organizational Units (OUs), user accou
 
 ---
 
+## Result
+
+At the end of this lab, the Windows Server is functioning as a Domain Controller for the `homelab.local` domain.
+
+The environment is ready for:
+
+- Creating users and groups
+- Creating Organizational Units (OUs)
+- Applying Group Policy Objects (GPOs)
+- Joining Windows client computers to the domain
+- Managing authentication and domain resources
+
+---
+
 ## Key Takeaways
 
 - Active Directory Domain Services (AD DS) provides centralized identity and resource management.
