@@ -81,6 +81,15 @@ Create a new user account within the **IT** Organizational Unit (OU).
 
 ---
 
+### 4. Configure the User Password
+
+1. Enter a password for the new user.
+2. Leave **User must change password at next logon** unchecked.
+3. Click **Next**, then **Finish**.
+
+![Configure Password](screenshots/04-user-password.png)
+
+---
 
 
 
