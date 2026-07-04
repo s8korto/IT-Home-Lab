@@ -79,7 +79,7 @@ Select Role-based or feature-based installation.
 
 ![Add Role](screenshots/02-add-roles.png)
 
-**why** 
+**why?** 
 
 The Role-based or feature-based installation option is used when installing server roles and features on a Windows Server. It allows roles such as:
 
@@ -125,6 +125,14 @@ Begin the installation of the Active Directory Domain Services (AD DS) role.
 4. Wait for the installation to complete.
 
 ![Install](screenshots/05-install.png)
+
+---
+
+### 6. Promote Server to Domain Controller
+
+After the Active Directory Domain Services role has been installed successfully, the server must be promoted to a Domain Controller to create and manage an Active Directory domain.
+
+![Promote Server](screenshots/06-promote-server.png)
 
 
 
