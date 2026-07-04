@@ -158,6 +158,22 @@ Active Directory allows administrators to securely reset passwords and restore u
 
 ---
 
+### 9. Disable a User Account
+
+Disable a user account to prevent the user from signing in while keeping the account and its data intact.
+
+1. Right-click **Jane Doe**.
+2. Select **Disable Account**.
+3. Click **OK** if prompted.
+
+After disabling the account, a small down-arrow icon will appear on the user account, indicating that it is disabled.
+
+![Disable User Account](screenshots/09-disable-user.png)
+
+**Key Idea**
+
+It prevents sign-in without deleting the account, allowing administrators to restore access later if needed.
+
 
 
 
