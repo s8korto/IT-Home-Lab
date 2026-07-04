@@ -17,3 +17,12 @@ Create and manage Active Directory users, Organizational Units (OUs), and securi
 - Active Directory Users and Computers (ADUC)
 
 ---
+
+## Prerequisites
+
+- Windows Server installed
+- Active Directory configured
+- Domain Controller running
+- Administrator account
+
+--- 
