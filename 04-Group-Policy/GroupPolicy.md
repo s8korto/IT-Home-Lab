@@ -202,7 +202,7 @@ Confirm that the **IT User Policy** Group Policy Object (GPO) has been successfu
 
 ![Applied Group Policies](screenshots/11-gpresult.png)
 
-**Key Idea**
+**Why**
 
 The `gpresult /r` command displays the Resultant Set of Policy (RSoP) for the current user and computer. It allows administrators to verify which Group Policy Objects (GPOs) have been applied, making it an essential tool for troubleshooting and confirming successful Group Policy deployment.
 
