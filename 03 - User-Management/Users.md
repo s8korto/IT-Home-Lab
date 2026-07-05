@@ -210,6 +210,22 @@ Renaming a user updates the account's display name in Active Directory. The user
 
 ---
 
+### 12. Delete a User Account
+
+Delete a temporary user account that is no longer required.
+
+1. Create a temporary user account (e.g., **Test User**).
+2. Right-click **Test User**.
+3. Select **Delete**.
+4. Click **Yes** to confirm the deletion.
+
+![Delete User Account](screenshots/12-delete-user.png)
+
+**Key Idea**
+
+Deleting a user account permanently removes it from Active Directory. Unlike disabling an account, a deleted account can no longer be used to sign in and must be recreated if needed.
+
+---
 
 
 
