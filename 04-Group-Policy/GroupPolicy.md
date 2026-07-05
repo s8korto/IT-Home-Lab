@@ -85,5 +85,18 @@ Configure a Group Policy setting to prevent users from accessing **Control Panel
 
 ---
 
+### 5. Configure a Desktop Wallpaper
+
+Configure a Group Policy setting to apply a standard desktop wallpaper to all users.
+
+1. Navigate to **User Configuration** → **Administrative Templates** → **Desktop** → **Desktop**.
+2. Double-click **Desktop Wallpaper**.
+3. Select **Enabled**.
+4. Enter the network path to the wallpaper image (for example, `\\Server\Wallpaper\company.jpg`).
+5. Click **Apply**.
+6. Click **OK**.
+
+---
+
 
 
