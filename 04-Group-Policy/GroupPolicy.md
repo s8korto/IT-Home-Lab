@@ -109,6 +109,8 @@ Configure a Group Policy setting to apply a standard desktop wallpaper to all us
 5. Click **Apply**.
 6. Click **OK**.
 
+![Desktop Wallpaper Policy](screenshots/05-desktop-wallpaper.png)
+
 ---
 
 ### 6. Link the Group Policy Object (GPO)
