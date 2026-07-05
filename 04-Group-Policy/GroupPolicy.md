@@ -71,3 +71,19 @@ Open the Group Policy Management Editor to configure the settings that will be a
 
 ---
 
+### 4. Prevent Access to Control Panel
+
+Configure a Group Policy setting to prevent users from accessing **Control Panel** and **PC Settings**.
+
+1. Navigate to **User Configuration** → **Administrative Templates** → **Control Panel**.
+2. Double-click **Prohibit access to Control Panel and PC settings**.
+3. Select **Enabled**.
+4. Click **Apply**.
+5. Click **OK**.
+
+![Disable Control Panel](screenshots/04-disable-control-panel.png)
+
+---
+
+
+
