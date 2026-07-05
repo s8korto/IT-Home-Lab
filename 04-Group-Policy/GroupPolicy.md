@@ -14,7 +14,7 @@ Configure and test Group Policy Objects (GPOs) in a Windows Server 2022 Active D
 - Domain: homelab.local
 
 **Client**
-- Windows 10
+- Windows 11
 - Joined to the homelab.local domain
 
 ---
@@ -25,7 +25,7 @@ Before starting, ensure the following are configured:
 
 - Windows Server 2022 is installed and running.
 - The server has been promoted to a Domain Controller with Active Directory Domain Services (AD DS).
-- A Windows 10 client is joined to the Active Directory domain.
+- A Windows 11 client is joined to the Active Directory domain.
 - A test user account exists for validating user policies.
 - A test Organizational Unit (OU) exists for linking Group Policy Objects.
 
@@ -125,6 +125,27 @@ Confirm that the Group Policy Object (GPO) is successfully linked to the **IT** 
 2. Verify that **IT User Policy** appears under **Linked Group Policy Objects**.
 
 ![Linked Group Policy](screenshots/07-linked-policy.png)
+
+---
+
+### 8. Sign In to the Windows 11 Client
+
+Sign in to the domain-joined Windows 11 client using the test domain user account.
+
+1. Start the Windows 11 client.
+2. At the sign-in screen, select **Other user** (if required).
+3. Sign in using your domain user account (for example, **jsmith**).
+
+![Sign In to Windows 11](screenshots/08-login-client.png)
+
+**why**
+
+Signing in with a domain user account allows Windows to retrieve and apply any Group Policy settings assigned to that user. This ensures the user receives the centrally managed configurations defined by the linked Group Policy Object (GPO).
+
+---
+
+
+
 
 
 
