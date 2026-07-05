@@ -187,6 +187,26 @@ Verifying the policy confirms that the Group Policy Object (GPO) has been succes
 
 ---
 
+### 11. Verify Applied Group Policies
+
+Confirm that the **IT User Policy** Group Policy Object (GPO) has been successfully applied to the domain user.
+
+1. Open **Command Prompt**.
+2. Run the following command:
+
+   ```cmd
+   gpresult /r
+   ```
+
+3. Review the output and verify that **IT User Policy** appears under **Applied Group Policy Objects**.
+
+![Applied Group Policies](screenshots/11-gpresult.png)
+
+**Key Idea**
+
+The `gpresult /r` command displays the Resultant Set of Policy (RSoP) for the current user and computer. It allows administrators to verify which Group Policy Objects (GPOs) have been applied, making it an essential tool for troubleshooting and confirming successful Group Policy deployment.
+
+---
 
 
 
