@@ -208,6 +208,13 @@ The `gpresult /r` command displays the Resultant Set of Policy (RSoP) for the cu
 
 ---
 
+## Summary
+
+In this lab, I successfully created and deployed a Group Policy Object (GPO) in an Active Directory environment. I configured user policies, linked the GPO to an Organizational Unit (OU), applied the policy to a domain-joined Windows 11 client, and verified that the settings were successfully enforced.
+
+
+
+
 
 
 
