@@ -29,4 +29,16 @@ Before starting, ensure the following are configured:
 - A test user account exists for validating user policies.
 - A test Organizational Unit (OU) exists for linking Group Policy Objects.
 
+---
 
+## What You'll Build
+
+In this lab, you'll create and deploy a Group Policy Object (GPO) that:
+
+- Changes the desktop wallpaper
+- Prevents access to Control Panel
+- Links the GPO to an Organizational Unit (OU)
+- Forces a Group Policy update
+- Verifies the policy is applied on a domain-joined Windows 10 client
+
+This lab demonstrates the complete Group Policy deployment workflow, from creating and linking a GPO to validating that the policy is successfully applied on a client computer.
