@@ -250,6 +250,29 @@ View the properties of a user account to explore the information stored in Activ
 
 The Properties window provides administrators with a central location to view and manage user account information. These settings control how users authenticate, where their profiles are stored, and how they are organized within the organization.
 
+---
+
+## Summary
+
+In this lab, I learned how to manage users and groups in Active Directory using Active Directory Users and Computers (ADUC).
+
+The tasks completed included:
+
+- Creating Organizational Units (OUs)
+- Creating user accounts
+- Creating security groups
+- Adding users to security groups
+- Resetting user passwords
+- Disabling user accounts
+- Moving users between OUs
+- Renaming user accounts
+- Deleting user accounts
+- Viewing and managing user properties
+
+These tasks represent common day-to-day responsibilities of IT Support and System Administrators in a Windows Server environment.
+
+---
+
 
 
 
