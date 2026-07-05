@@ -98,5 +98,24 @@ Configure a Group Policy setting to apply a standard desktop wallpaper to all us
 
 ---
 
+### 6. Link the Group Policy Object (GPO)
+
+Link the Group Policy Object (GPO) to the **IT** Organizational Unit (OU) so the policy is applied to users within that OU.
+
+1. Return to **Group Policy Management**.
+2. Expand your domain and locate the **IT** Organizational Unit (OU).
+3. Right-click **IT**.
+4. Select **Link an Existing GPO**.
+5. Choose **IT User Policy**.
+6. Click **OK**.
+
+![Link Group Policy Object](screenshots/06-link-gpo.png)
+
+**Key Idea**
+
+A Group Policy Object (GPO) has no effect until it is linked to a site, domain, or Organizational Unit (OU). Linking the GPO to the **IT** OU ensures that only users and computers within that OU receive the configured policy settings, allowing administrators to target policies to specific departments or groups.
+
+---
+
 
 
