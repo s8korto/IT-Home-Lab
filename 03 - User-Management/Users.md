@@ -84,7 +84,7 @@ Create a new user account within the **IT** Organizational Unit (OU).
 ### 4. Configure the User Password
 
 1. Enter a password for the new user.
-2. Leave **User must change password at next logon** checked for this lab environment.
+2. Leave **User must change password at next logon** checked (or configure it as required for your lab environment).
 3. Click **Next**, then **Finish**.
 
 ![Configure Password](screenshots/04-user-password.png)
@@ -180,7 +180,7 @@ After disabling the account, a small down-arrow icon will appear on the user acc
 
 **Key Idea**
 
-It prevents sign-in without deleting the account, allowing administrators to restore access later if needed.
+Disabling a user account prevents sign-in without deleting the account, allowing administrators to restore access later if needed.
 
 ---
 
