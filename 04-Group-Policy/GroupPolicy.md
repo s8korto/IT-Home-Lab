@@ -2,7 +2,7 @@
 
 ## Objective
 
-Create, configure, deploy, and verify Group Policy Objects (GPOs) in a Windows Server Active Directory environment to centrally manage user and computer settings across domain-joined devices.
+Configure and deploy Group Policy Objects (GPOs) in a Windows Server Active Directory environment, then verify their successful application on a domain-joined Windows 11 client.
 
 ---
 
