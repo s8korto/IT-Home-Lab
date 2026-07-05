@@ -78,6 +78,10 @@ Open the Group Policy Management Editor to configure the settings that will be a
 
 ![Edit Group Policy Object](screenshots/03-edit-gpo.png)
 
+**Why**
+
+The Group Policy Management Editor is where administrators configure the settings contained within a GPO. Policies are separated into User Configuration and Computer Configuration to target the appropriate objects.
+
 ---
 
 ### 4. Prevent Access to Control Panel
