@@ -126,6 +126,10 @@ Confirm that the Group Policy Object (GPO) is successfully linked to the **IT** 
 
 ![Linked Group Policy](screenshots/07-linked-policy.png)
 
+**why**
+
+Verifying the link confirms that the GPO is associated with the correct Organizational Unit (OU). This helps ensure the intended users or computers will receive the policy when Group Policy is refreshed.
+
 ---
 
 ### 8. Sign In to the Windows 11 Client
