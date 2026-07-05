@@ -229,13 +229,13 @@ In this lab, I successfully created and deployed a Group Policy Object (GPO) in 
 ### Skills Demonstrated
 
 - Windows Server Administration
-- Active Directory Domain Services 
-- Group Policy Management Console
-- Group Policy deployment and management
+- Active Directory Domain Services (AD DS)
 - Organizational Unit (OU) management
+- Group Policy Management Console (GPMC)
+- Group Policy deployment and management
 - Windows 11 domain administration
-- Group Policy troubleshooting
 - Command-line administration (`gpupdate`, `gpresult`)
+- Group Policy troubleshooting
 
 ### Key Takeaways
 
