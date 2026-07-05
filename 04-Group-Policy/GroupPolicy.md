@@ -117,5 +117,14 @@ A Group Policy Object (GPO) has no effect until it is linked to a site, domain, 
 
 ---
 
+### 7. Verify the Group Policy Link
+
+Confirm that the Group Policy Object (GPO) is successfully linked to the **IT** Organizational Unit (OU).
+
+1. In **Group Policy Management**, select the **IT** Organizational Unit (OU).
+2. Verify that **IT User Policy** appears under **Linked Group Policy Objects**.
+
+![Linked Group Policy](screenshots/07-linked-policy.png)
+
 
 
