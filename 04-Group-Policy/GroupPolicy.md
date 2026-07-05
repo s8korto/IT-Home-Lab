@@ -43,9 +43,9 @@ Group Policy is managed through the **Group Policy Management Console** on the D
 
 ![Open Group Policy Management](screenshots/01-open-group-policy.png)
 
-**Why This Matters**
+**Why**
 
-The Group Policy Management Console (GPMC) is the primary tool used to create, edit, link, and manage Group Policy Objects (GPOs) within an Active Directory environment.
+The Group Policy Management Console is the primary tool used to create, edit, link, and manage Group Policy Objects (GPOs) within an Active Directory environment.
 
 
 ---
