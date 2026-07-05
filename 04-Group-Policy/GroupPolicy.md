@@ -29,14 +29,4 @@ Before starting, ensure the following are configured:
 - A test user account exists for validating user policies.
 - A test Organizational Unit (OU) exists for linking Group Policy Objects.
 
-### Example Active Directory Structure
-
-homelab.local
-│
-├── IT
-│   └── John Smith
-│
-├── HR
-│
-└── Computers
 
