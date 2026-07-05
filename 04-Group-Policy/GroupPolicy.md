@@ -31,14 +31,16 @@ Before starting, ensure the following are configured:
 
 ---
 
-## What You'll Build
+## Steps
 
-In this lab, you'll create and deploy a Group Policy Object (GPO) that:
+### 1. Open Group Policy Management
 
-- Changes the desktop wallpaper
-- Prevents access to Control Panel
-- Links the GPO to an Organizational Unit (OU)
-- Forces a Group Policy update
-- Verifies the policy is applied on a domain-joined Windows 10 client
+Group Policy is managed through the **Group Policy Management Console** on the Domain Controller.
 
-This lab demonstrates the complete Group Policy deployment workflow, from creating and linking a GPO to validating that the policy is successfully applied on a client computer.
+1. Open **Server Manager**.
+2. Select **Tools** → **Group Policy Management**.
+3. Expand **Forest** → **Domains** → **homelab.local**.
+
+![Open Group Policy Management](screenshots/01-open-group-policy.png)
+
+---
