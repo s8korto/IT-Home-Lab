@@ -224,10 +224,10 @@ In this lab, I successfully created and deployed a Group Policy Object (GPO) in 
 
 ### Skills Demonstrated
 
-- Windows Server 2022 Administration
+- Windows Server Administration
 - Active Directory Domain Services 
 - Group Policy Management Console
-- Group Policy administration
+- Group Policy deployment and management
 - Organizational Unit (OU) management
 - Windows 11 domain administration
 - Group Policy troubleshooting
