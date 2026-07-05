@@ -277,9 +277,7 @@ The tasks completed included:
 - Deleting user accounts
 - Viewing and managing user properties
 
-These tasks represent common day-to-day responsibilities of IT Support and System Administrators in a Windows Server environment.
 
----
 
 
 
