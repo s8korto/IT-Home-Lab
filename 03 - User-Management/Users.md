@@ -84,7 +84,7 @@ Create a new user account within the **IT** Organizational Unit (OU).
 ### 4. Configure the User Password
 
 1. Enter a password for the new user.
-2. Leave **User must change password at next logon** unchecked.
+2. Leave **User must change password at next logon** checked for this lab environment.
 3. Click **Next**, then **Finish**.
 
 ![Configure Password](screenshots/04-user-password.png)
@@ -102,7 +102,7 @@ Create the following users:
 | Jane | Doe | jdoe | IT |
 | David | Lee | dlee | HR |
 | Sarah | Brown | sbrown | HR |
-| John | Smite | jsmite | IT |
+| John | Smith | jsmith | IT |
 
 Create each user by repeating the same steps as before and placing them in the appropriate Organizational Unit (OU).
 
@@ -124,6 +124,10 @@ Create a security group to manage permissions for users in the IT department.
 
 ![Create Security Group](screenshots/06-create-group.png)
 
+**Key Idea**
+
+Security groups are used to assign permissions to multiple users at once. Managing permissions through groups is more efficient than assigning permissions to individual user accounts.
+
 ---
 
 ### 7. Add Users to the Security Group
@@ -138,6 +142,10 @@ Add users to the **IT Support** security group to simplify permission management
 6. Click **Apply**, then **OK**.
 
 ![Add Group Members](screenshots/07-group-members.png)
+
+**Key Idea**
+
+Adding users to security groups allows administrators to manage permissions centrally. When permissions are assigned to a group, every member automatically inherits those permissions.
 
 ---
 
