@@ -44,3 +44,15 @@ Group Policy is managed through the **Group Policy Management Console** on the D
 ![Open Group Policy Management](screenshots/01-open-group-policy.png)
 
 ---
+
+### 2. Create a Group Policy Object (GPO)
+
+Create a new Group Policy Object (GPO) that will contain the settings you want to apply to users.
+
+1. Expand **Forest** → **Domains** → **homelab.local**.
+2. Right-click **Group Policy Objects**.
+3. Select **New**.
+4. Enter **IT User Policy** as the name.
+5. Click **OK**.
+
+![Create Group Policy Object](screenshots/02-create-gpo.png)
