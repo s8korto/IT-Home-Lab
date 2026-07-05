@@ -233,6 +233,14 @@ In this lab, I successfully created and deployed a Group Policy Object (GPO) in 
 - Group Policy troubleshooting
 - Command-line administration (`gpupdate`, `gpresult`)
 
+### Key Takeaways
+
+- Group Policy provides centralized management of Windows users and computers.
+- GPOs do not take effect until they are linked to Organizational Unit (OU).
+- Policies can be refreshed immediately using `gpupdate /force`.
+- The `gpresult` command is a valuable troubleshooting tool for verifying applied Group Policies.
+- Testing on a domain-joined client confirms that policies are configured and deployed correctly.
+
 
 
 
