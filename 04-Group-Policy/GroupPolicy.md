@@ -56,3 +56,18 @@ Create a new Group Policy Object (GPO) that will contain the settings you want t
 5. Click **OK**.
 
 ![Create Group Policy Object](screenshots/02-create-gpo.png)
+
+---
+
+### 3. Edit the Group Policy Object (GPO)
+
+Open the Group Policy Management Editor to configure the settings that will be applied through the Group Policy Object (GPO).
+
+1. Right-click **IT User Policy**.
+2. Select **Edit**.
+3. The **Group Policy Management Editor** opens.
+
+![Edit Group Policy Object](screenshots/03-edit-gpo.png)
+
+---
+
