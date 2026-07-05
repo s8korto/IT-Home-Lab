@@ -62,6 +62,10 @@ Create a new Group Policy Object (GPO) that will contain the settings you want t
 
 ![Create Group Policy Object](screenshots/02-create-gpo.png)
 
+**Why**
+
+A Group Policy Object (GPO) stores configuration settings for users and computers. Creating the GPO provides a container for these settings, but it will not affect any users until it is linked to a site, domain, or Organizational Unit (OU).
+
 ---
 
 ### 3. Edit the Group Policy Object (GPO)
