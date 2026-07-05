@@ -144,6 +144,26 @@ Signing in with a domain user account allows Windows to retrieve and apply any G
 
 ---
 
+### 9. Refresh Group Policy
+
+Force the Windows 10 client to retrieve and apply the latest Group Policy settings from the Domain Controller.
+
+1. Open **Command Prompt** as **Administrator**.
+2. Run the following command:
+
+   ```cmd
+   gpupdate /force
+   ```
+
+3. Wait for the update to complete successfully.
+
+![Group Policy Update](screenshots/09-gpupdate.png)
+
+**why**
+
+The `gpupdate /force` command immediately refreshes both **User** and **Computer** Group Policy settings without waiting for the automatic refresh interval. This is commonly used by administrators to test new policies and verify that changes have been applied successfully.
+
+---
 
 
 
