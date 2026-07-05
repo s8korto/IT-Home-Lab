@@ -2,7 +2,7 @@
 
 ## Objective
 
-Configure and test Group Policy Objects (GPOs) in a Windows Server 2022 Active Directory environment to centrally manage user and computer settings across domain-joined devices.
+Create, configure, deploy, and verify Group Policy Objects (GPOs) in a Windows Server 2022 Active Directory environment to centrally manage user and computer settings across domain-joined devices.
 
 ---
 
@@ -111,7 +111,7 @@ Link the Group Policy Object (GPO) to the **IT** Organizational Unit (OU) so the
 
 ![Link Group Policy Object](screenshots/06-link-gpo.png)
 
-**Key Idea**
+**why**
 
 A Group Policy Object (GPO) has no effect until it is linked to a site, domain, or Organizational Unit (OU). Linking the GPO to the **IT** OU ensures that only users and computers within that OU receive the configured policy settings, allowing administrators to target policies to specific departments or groups.
 
