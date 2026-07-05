@@ -146,7 +146,7 @@ Signing in with a domain user account allows Windows to retrieve and apply any G
 
 ### 9. Refresh Group Policy
 
-Force the Windows 10 client to retrieve and apply the latest Group Policy settings from the Domain Controller.
+Force the Windows 11 client to retrieve and apply the latest Group Policy settings from the Domain Controller.
 
 1. Open **Command Prompt** as **Administrator**.
 2. Run the following command:
@@ -162,6 +162,28 @@ Force the Windows 10 client to retrieve and apply the latest Group Policy settin
 **why**
 
 The `gpupdate /force` command immediately refreshes both **User** and **Computer** Group Policy settings without waiting for the automatic refresh interval. This is commonly used by administrators to test new policies and verify that changes have been applied successfully.
+
+---
+
+### 10. Verify the Group Policy
+
+Test that the Group Policy settings have been successfully applied to the Windows 11 client.
+
+1. Press **Windows + R** to open the **Run** dialog.
+2. Type the following command:
+
+   ```text
+   control
+   ```
+
+3. Press **Enter**.
+4. Verify that a message appears indicating that **Control Panel has been restricted by your administrator**.
+
+![Group Policy Verification](screenshots/10-policy-working.png)
+
+**Why**
+
+Verifying the policy confirms that the Group Policy Object (GPO) has been successfully applied to the domain user. This demonstrates that the GPO is correctly configured, linked to the appropriate Organizational Unit (OU), and enforced on the Windows 11 client.
 
 ---
 
