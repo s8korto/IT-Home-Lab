@@ -227,6 +227,29 @@ Deleting a user account permanently removes it from Active Directory. Unlike dis
 
 ---
 
+### 13. View User Properties
+
+View the properties of a user account to explore the information stored in Active Directory.
+
+1. Right-click a user account (e.g., **John Wilson**).
+2. Select **Properties**.
+3. Explore the following tabs:
+
+| Tab | Purpose |
+|------|---------|
+| **General** | Stores basic information such as the user's name, description, office location, telephone number, and email address. |
+| **Address** | Stores the user's street address, city, state, postal code, and country. |
+| **Account** | Contains account settings such as the username, logon restrictions, password options, account expiration, and account status. |
+| **Profile** | Configures the user's profile path, logon script, and home folder. |
+| **Member Of** | Displays the security and distribution groups that the user belongs to. |
+| **Organization** | Stores organizational details such as the user's job title, department, company, manager, and direct reports. |
+
+![User Properties](screenshots/13-user-properties.png)
+
+**Key Idea**
+
+The Properties window provides administrators with a central location to view and manage user account information. These settings control how users authenticate, where their profiles are stored, and how they are organized within the organization.
+
 
 
 
