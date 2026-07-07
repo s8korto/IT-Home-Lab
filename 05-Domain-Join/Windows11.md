@@ -204,5 +204,29 @@ Click **Sign in**.
 
 Signing in with a domain account verifies that the computer has successfully joined the Active Directory domain and can authenticate users through the Domain Controller.
 
+---
+
+## 8. Verify the Computer Object in Active Directory
+
+On the Domain Controller:
+
+Open **Active Directory Users and Computers**.
+
+Expand:
+
+```text
+homelab.local
+```
+
+Select the **Computers** container.
+
+Verify that your Windows client computer appears in the list.
+
+![Login Client](screenshots/08-verify-server.png)
+
+**Why?**
+
+When a computer successfully joins the domain, Active Directory automatically creates a computer object. Seeing the computer listed in the **Computers** container confirms that the Domain Controller has registered the client as a member of the domain.
+
 
 
