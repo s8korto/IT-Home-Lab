@@ -41,11 +41,12 @@ ping 192.168.56.10
 ```text
 Reply from 192.168.56.10
 ```
+If you receive replies from the server, the client can communicate with the Domain Controller over the network.
 
 ![Ping](screenshots/01-ping.png)
 
 **Why?**
 
-The client must be able to communicate with the Domain Controller before it can join the domain.
+Before joining a computer to a domain, it must be able to reach the Domain Controller. If the ping fails, the domain join process will also fail because the client cannot contact Active Directory services.
 
 
