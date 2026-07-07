@@ -74,7 +74,7 @@ Addresses:
           192.168.56.10
 ```
 
-![DNS](screenshots/01-dns.png)
+![DNS](screenshots/02-dns.png)
 
 **Why?**
 
