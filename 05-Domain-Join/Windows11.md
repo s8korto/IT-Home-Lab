@@ -150,7 +150,7 @@ Windows requires authorization from the Domain Controller before a computer can 
 
 ---
 
-## Step 6 - Restart the Computer
+## 6. Restart the Computer
 
 After the credentials are verified, you will receive a confirmation message similar to:
 
@@ -169,6 +169,40 @@ Click **OK**, then select:
 **Why?**
 
 Restarting the computer completes the domain join process. During startup, Windows applies the new domain membership and prepares the computer to authenticate with the Domain Controller.
+
+---
+
+## 7. Sign In with a Domain Account
+
+After the computer restarts:
+
+At the sign-in screen, select:
+
+**Other user**
+
+Sign in using a domain account.
+
+Example:
+
+```text
+HOMELAB\jsmith
+```
+
+or
+
+```text
+jsmith@homelab.local
+```
+
+Enter the password for the domain user.
+
+Click **Sign in**.
+
+![Login Client](screenshots/07-login-client.png)
+
+**Why?**
+
+Signing in with a domain account verifies that the computer has successfully joined the Active Directory domain and can authenticate users through the Domain Controller.
 
 
 
