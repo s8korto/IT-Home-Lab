@@ -311,6 +311,33 @@ Logon Server:  \\DC01
 
 The `systeminfo` command displays detailed information about the computer, including its domain membership and the Domain Controller that authenticated the current session. Seeing the correct domain and logon server confirms that the client is successfully joined to the Active Directory domain and communicating with the Domain Controller.
 
+---
+
+## 12. Verify the Computer Name
+
+On the Windows 11 client VM:
+
+Open **Command Prompt**.
+
+Run:
+
+```powershell
+hostname
+```
+
+**Expected output**
+
+```text
+DESKTOP-0VE1N6C
+```
+
+> **Note:** Your computer name may differ depending on your environment.
+
+![Verify Comp Detail](screenshots/12-verify-hostname.png)
+
+**Why?**
+
+The `hostname` command displays the name of the local computer. Verifying the computer name ensures it matches the computer object created in Active Directory, confirming that the correct device has successfully joined the domain.
 
 
 
