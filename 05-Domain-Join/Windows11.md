@@ -370,6 +370,14 @@ The `gpupdate /force` command refreshes both the computer and user Group Policy 
 
 ---
 
+## Summary 
+
+In this lab, a Windows 11 client was successfully joined to the `homelab.local` Active Directory domain. After verifying network connectivity and configuring the client, the computer was added to the domain using administrator credentials. The domain join was validated through multiple verification methods, including checking the computer object in Active Directory, confirming domain user authentication, identifying the logon server, verifying domain membership, and updating Group Policy.
+
+This lab demonstrates the complete process of integrating a Windows client into an Active Directory environment, allowing centralized authentication, policy management, and administration.
+
+---
+
 
 
 
