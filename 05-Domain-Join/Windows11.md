@@ -408,6 +408,19 @@ This lab demonstrates the complete process of integrating a Windows client into 
 - Active Directory computer object verification
 - Client and server connectivity verification
 
+---
+
+### Key Takeaways
+
+- A Windows client must be able to communicate with the Domain Controller before it can join a domain.
+- DNS plays a critical role by allowing the client to locate the Domain Controller.
+- Administrator credentials are required to authorize a computer to join the domain.
+- Restarting the client completes the domain join process.
+- Domain users can authenticate through Active Directory after the client joins the domain.
+- Active Directory automatically creates a computer object for each domain-joined client.
+- Commands such as `whoami`, `echo %logonserver%`, `systeminfo`, `hostname`, and `gpupdate /force` are useful for verifying successful domain integration.
+- Joining computers to a domain enables centralized authentication, security policy enforcement, and simplified administration across an enterprise network.
+
 
 
 
