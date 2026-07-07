@@ -148,5 +148,27 @@ Click **OK**.
 
 Windows requires authorization from the Domain Controller before a computer can join the domain. The administrator credentials verify that you have permission to add the computer to Active Directory.
 
+---
+
+## Step 6 - Restart the Computer
+
+After the credentials are verified, you will receive a confirmation message similar to:
+
+```text
+Welcome to the homelab.local domain.
+```
+
+Click **OK**.
+
+You will then be prompted to restart the computer.
+
+Click **OK**, then select:
+
+**Restart Now**
+
+**Why?**
+
+Restarting the computer completes the domain join process. During startup, Windows applies the new domain membership and prepares the computer to authenticate with the Domain Controller.
+
 
 
