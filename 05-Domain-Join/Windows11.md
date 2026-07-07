@@ -222,11 +222,37 @@ Select the **Computers** container.
 
 Verify that your Windows client computer appears in the list.
 
-![Login Client](screenshots/08-verify-server.png)
+![Verify Server](screenshots/08-verify-server.png)
 
 **Why?**
 
 When a computer successfully joins the domain, Active Directory automatically creates a computer object. Seeing the computer listed in the **Computers** container confirms that the Domain Controller has registered the client as a member of the domain.
+
+---
+
+## 9. Verify the Logged-in User
+
+On the Windows 11 client VM:
+
+Open **Command Prompt**.
+
+Run:
+
+```powershell
+whoami
+```
+
+**Expected output**
+
+```text
+homelab\jsmith
+```
+
+![Verify Client](screenshots/09-verify-client.png)
+
+**Why?**
+
+The `whoami` command displays the account currently logged into Windows. If the output shows your domain name (for example, `homelab\jsmith`), it confirms that the user has successfully authenticated through Active Directory instead of using a local account.
 
 
 
