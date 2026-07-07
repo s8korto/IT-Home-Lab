@@ -6,6 +6,24 @@ Join a Windows client to an Active Directory domain, allowing it to become part 
 
 ---
 
+## Lab Environment
+
+**Domain Controller**
+- Windows Server 2022
+- Active Directory Domain Services
+- DNS Server
+
+**Client**
+- Windows 11
+
+**Virtualization**
+- VirtualBox
+
+**Domain**
+homelab.local
+
+---
+
 ## Prerequisites
 
 Before starting, ensure:
