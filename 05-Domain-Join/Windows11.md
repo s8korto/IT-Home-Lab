@@ -395,6 +395,19 @@ This lab demonstrates the complete process of integrating a Windows client into 
 
 ---
 
+### Skills Demonstrated
+
+- Active Directory Domain Services 
+- Domain joining Windows clients
+- Windows Server administration
+- Windows 11 administration
+- Domain authentication
+- DNS configuration and validation
+- Group Policy processing
+- Command Prompt troubleshooting
+- Active Directory computer object verification
+- Client and server connectivity verification
+
 
 
 
