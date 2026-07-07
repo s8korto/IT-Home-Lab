@@ -24,6 +24,24 @@ homelab.local
 
 ---
 
+## Network Diagram
+
++-----------------------+
+| Domain Controller     |
+| Windows Server 2022   |
+| AD DS + DNS           |
+| 192.168.56.10         |
++-----------+-----------+
+            |
+      Virtual Network
+            |
++-----------+-----------+
+| Windows 11 Client     |
+| Joined to homelab.local|
++------------------------+
+
+---
+
 ## Prerequisites
 
 Before starting, ensure:
