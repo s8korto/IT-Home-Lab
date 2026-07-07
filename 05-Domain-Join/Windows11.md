@@ -24,7 +24,7 @@ Before starting, ensure:
 
 ## Steps
 
-### Step 1 - Verify Network Connectivity
+### 1. Verify Network Connectivity
 
 On the Windows 11 client VM:
 
@@ -51,7 +51,7 @@ Before joining a computer to a domain, it must be able to reach the Domain Contr
 
 ---
 
-### Step 2 - Verify DNS Resolution
+### 2. Verify DNS Resolution
 
 On the Windows 11 client VM:
 
@@ -82,7 +82,7 @@ The client must be able to resolve the domain name to the Domain Controller's IP
 
 ---
 
-### Step 3. Open System Properties
+### 3. Open System Properties
 
 On the Windows 11 client VM:
 
@@ -101,5 +101,31 @@ Press **Enter**.
 **Why?**
 
 The **System Properties** window allows you to change the computer's membership from a workgroup to an Active Directory domain.
+
+---
+
+### 4. Enter the Domain Name
+
+In the **Computer Name/Domain Changes** window:
+
+Select:
+
+**Domain**
+
+Enter your domain name:
+
+```text
+homelab.local
+```
+
+Click **OK**.
+
+![Change Member](screenshots/04-change-member.png)
+
+**Why?**
+
+This tells Windows which Active Directory domain the computer should join. The client will use DNS to locate the Domain Controller and request permission to become a member of the domain.
+
+---
 
 
