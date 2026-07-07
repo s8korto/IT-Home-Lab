@@ -254,5 +254,34 @@ homelab\jsmith
 
 The `whoami` command displays the account currently logged into Windows. If the output shows your domain name (for example, `homelab\jsmith`), it confirms that the user has successfully authenticated through Active Directory instead of using a local account.
 
+---
+
+## 10. Verify the Logon Server
+
+On the Windows 11 client VM:
+
+Open **Command Prompt**.
+
+Run:
+
+```powershell
+echo %logonserver%
+```
+
+**Expected output**
+
+```text
+\\DC01
+```
+
+> **Note:** Your logon server name may differ depending on your environment.
+
+![Domain Authetication](screenshots/10-domain-authetication.png)
+
+**Why?**
+
+The `echo %logonserver%` command displays the Domain Controller that authenticated your login session. If the output shows your Domain Controller (for example, `\\DC01`), it confirms that the client successfully communicated with Active Directory during the sign-in process.
+
+
 
 
