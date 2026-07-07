@@ -49,4 +49,34 @@ If you receive replies from the server, the client can communicate with the Doma
 
 Before joining a computer to a domain, it must be able to reach the Domain Controller. If the ping fails, the domain join process will also fail because the client cannot contact Active Directory services.
 
+---
+
+### Step 2 - Verify DNS Resolution
+
+On the Windows 11 client VM:
+
+Open **Command Prompt**
+
+Run:
+
+```powershell
+nslookup homelab.local
+```
+
+**Expected output**
+
+```text
+Server:  Unknown
+Address: 192.168.56.10
+
+Name:    homelab.local
+Addresses:
+          192.168.56.10
+```
+
+![DNS](screenshots/01-dns.png)
+
+**Why?**
+
+The client must be able to resolve the domain name to the Domain Controller's IP address. Active Directory relies on DNS to locate domain services during the domain join process.
 
