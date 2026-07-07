@@ -96,7 +96,7 @@ sysdm.cpl
 
 Press **Enter**.
 
-![System Properties](screenshots/32-system-properties.png)
+![System Properties](screenshots/03-system-properties.png)
 
 **Why?**
 
