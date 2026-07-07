@@ -378,6 +378,25 @@ This lab demonstrates the complete process of integrating a Windows client into 
 
 ---
 
+### Tasks Completed
+
+- Verified network connectivity between the client and Domain Controller.
+- Opened System Properties and initiated the domain join process.
+- Joined the Windows 11 client to the `homelab.local` domain.
+- Authenticated the domain join using administrator credentials.
+- Restarted the client to complete the domain join.
+- Signed in using a domain user account.
+- Verified the computer object in Active Directory Users and Computers.
+- Confirmed domain authentication using `whoami`.
+- Verified the authenticating Domain Controller using `echo %logonserver%`.
+- Confirmed domain membership using `systeminfo`.
+- Verified the client computer name using `hostname`.
+- Updated and verified Group Policy using `gpupdate /force`.
+
+---
+
+
+
 
 
 
