@@ -80,3 +80,26 @@ Addresses:
 
 The client must be able to resolve the domain name to the Domain Controller's IP address. Active Directory relies on DNS to locate domain services during the domain join process.
 
+---
+
+### Step 3. Open System Properties
+
+On the Windows 11 client VM:
+
+Open **Command Prompt**
+
+Run:
+
+```powershell
+sysdm.cpl
+```
+
+Press **Enter**.
+
+![System Properties](screenshots/32-system-properties.png)
+
+**Why?**
+
+The **System Properties** window allows you to change the computer's membership from a workgroup to an Active Directory domain.
+
+
