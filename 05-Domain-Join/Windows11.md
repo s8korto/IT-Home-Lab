@@ -128,4 +128,25 @@ This tells Windows which Active Directory domain the computer should join. The c
 
 ---
 
+## 5. Enter Domain Administrator Credentials
+
+When prompted, enter the credentials of a domain account with permission to join computers to the domain.
+
+**Username**
+
+```text
+Administrator
+```
+
+**Password**
+
+Enter the password for the domain administrator account.
+
+Click **OK**.
+
+**Why?**
+
+Windows requires authorization from the Domain Controller before a computer can join the domain. The administrator credentials verify that you have permission to add the computer to Active Directory.
+
+
 
