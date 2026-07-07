@@ -128,7 +128,7 @@ This tells Windows which Active Directory domain the computer should join. The c
 
 ---
 
-## 5. Enter Domain Administrator Credentials
+### 5. Enter Domain Administrator Credentials
 
 When prompted, enter the credentials of a domain account with permission to join computers to the domain.
 
@@ -150,7 +150,7 @@ Windows requires authorization from the Domain Controller before a computer can 
 
 ---
 
-## 6. Restart the Computer
+### 6. Restart the Computer
 
 After the credentials are verified, you will receive a confirmation message similar to:
 
@@ -172,7 +172,7 @@ Restarting the computer completes the domain join process. During startup, Windo
 
 ---
 
-## 7. Sign In with a Domain Account
+### 7. Sign In with a Domain Account
 
 After the computer restarts:
 
@@ -206,7 +206,7 @@ Signing in with a domain account verifies that the computer has successfully joi
 
 ---
 
-## 8. Verify the Computer Object in Active Directory
+### 8. Verify the Computer Object in Active Directory
 
 On the Domain Controller:
 
@@ -230,7 +230,7 @@ When a computer successfully joins the domain, Active Directory automatically cr
 
 ---
 
-## 9. Verify the Logged-in User
+### 9. Verify the Logged-in User
 
 On the Windows 11 client VM:
 
@@ -256,7 +256,7 @@ The `whoami` command displays the account currently logged into Windows. If the 
 
 ---
 
-## 10. Verify the Logon Server
+### 10. Verify the Logon Server
 
 On the Windows 11 client VM:
 
@@ -284,7 +284,7 @@ The `echo %logonserver%` command displays the Domain Controller that authenticat
 
 ---
 
-## 11. Verify Domain Membership
+### 11. Verify Domain Membership
 
 On the Windows 11 client VM:
 
@@ -313,7 +313,7 @@ The `systeminfo` command displays detailed information about the computer, inclu
 
 ---
 
-## 12. Verify the Computer Name
+### 12. Verify the Computer Name
 
 On the Windows 11 client VM:
 
@@ -333,11 +333,43 @@ DESKTOP-0VE1N6C
 
 > **Note:** Your computer name may differ depending on your environment.
 
-![Verify Comp Detail](screenshots/12-verify-hostname.png)
+![Verify Hostname](screenshots/12-verify-hostname.png)
 
 **Why?**
 
 The `hostname` command displays the name of the local computer. Verifying the computer name ensures it matches the computer object created in Active Directory, confirming that the correct device has successfully joined the domain.
+
+---
+
+### 13. Update Group Policy
+
+On the Windows 11 client VM:
+
+Open **Command Prompt**.
+
+Run:
+
+```powershell
+gpupdate /force
+```
+
+**Expected output**
+
+```text
+Updating policy...
+
+Computer Policy update has completed successfully.
+User Policy update has completed successfully.
+```
+
+![Verify Group Policy](screenshots/13-verify-group-policy.png)
+
+**Why?**
+
+The `gpupdate /force` command refreshes both the computer and user Group Policy settings from the Domain Controller. A successful update confirms that the client can communicate with the Domain Controller and receive Active Directory policies.
+
+---
+
 
 
 
