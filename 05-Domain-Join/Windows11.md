@@ -282,6 +282,36 @@ echo %logonserver%
 
 The `echo %logonserver%` command displays the Domain Controller that authenticated your login session. If the output shows your Domain Controller (for example, `\\DC01`), it confirms that the client successfully communicated with Active Directory during the sign-in process.
 
+---
+
+## 11. Verify Domain Membership
+
+On the Windows 11 client VM:
+
+Open **Command Prompt**.
+
+Run:
+
+```powershell
+systeminfo
+```
+
+Verify the following entries:
+
+```text
+Domain:        homelab.local
+Logon Server:  \\DC01
+```
+
+> **Note:** Your Domain Controller name may differ depending on your environment.
+
+![Verify Comp Detail](screenshots/11-verify-comp-detail.png)
+
+**Why?**
+
+The `systeminfo` command displays detailed information about the computer, including its domain membership and the Domain Controller that authenticated the current session. Seeing the correct domain and logon server confirms that the client is successfully joined to the Active Directory domain and communicating with the Domain Controller.
+
+
 
 
 
