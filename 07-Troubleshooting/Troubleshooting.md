@@ -179,4 +179,3 @@ Through building this home lab, I learned that:
 - Tools such as `ping`, `ipconfig`, `nslookup`, `gpupdate`, and `gpresult` are essential for troubleshooting Windows networks. 
 - Following a structured troubleshooting process makes it easier to identify and resolve issues. 
 - Careful verification after implementing a fix helps confirm the issue has been fully resolved.
-
