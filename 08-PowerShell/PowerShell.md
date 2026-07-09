@@ -89,6 +89,26 @@ If successful, the users will be created in Active Directory.
 
 ![User Created](screenshots/04-users-created.png)
 
+---
+
+## Verification
+
+You can verify using PowerShell:
+
+```powershell
+Get-ADUser -Filter *
+```
+
+or
+
+```powershell
+Get-ADUser gjames
+```
+
+![Verify](screenshots/05-verify.png)
+
+
+
 
 
 
