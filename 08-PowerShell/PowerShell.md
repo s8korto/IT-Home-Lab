@@ -59,7 +59,7 @@ Add the required PowerShell commands to:
 
 ---
 
-### Step 3 - Save the Script
+### 3. Save the Script
 
 Save the script as:
 
@@ -68,6 +68,28 @@ CreateUsers.ps1
 ```
 
 ---
+
+### 4. Run the Script
+
+Navigate to the script location.
+
+Example:
+
+```powershell
+cd Desktop
+```
+
+Execute the script:
+
+```powershell
+.\CreateUsers.ps1
+```
+
+If successful, the users will be created in Active Directory.
+
+![User Created](screenshots/04-users-created.png)
+
+
 
 
 
