@@ -26,3 +26,22 @@ ipconfig /all
 - Verified both machines were on the same subnet. 
 - Reviewed the VirtualBox network adapter settings.
 
+## Resolution
+
+I corrected the VirtualBox network adapter configuration so that both virtual machines shared the same Host-Only network.
+
+## Verification
+
+```powershell 
+ping 192.168.56.10 
+```
+
+**Result** 
+
+- Successful replies from the Domain Controller.
+- Network communication between the client and server was restored.
+
+---
+
+
+
