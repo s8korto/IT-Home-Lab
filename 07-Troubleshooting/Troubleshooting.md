@@ -126,4 +126,47 @@ nslookup homelab.local
 - The domain resolved successfully. 
 - The client could locate Active Directory services.
 
+---
+
+# Scenario 4 – Group Policy Not Applying
+
+## Issue
+
+The configured Group Policy settings were not being applied to the test user.
+
+## Investigation
+
+I refreshed Group Policy.
+
+```powershell 
+gpupdate /force 
+```
+
+I reviewed the applied policies.
+
+```powershell 
+gpresult /r 
+```
+
+I also verified:
+- The user was located in the correct Organizational Unit (OU). 
+- The Group Policy Object (GPO) was linked to the correct OU. 
+- The GPO was enabled.
+
+## Resolution
+
+After confirming the GPO configuration and forcing a policy update, the policy applied successfully. 
+
+## Verification
+
+```powershell 
+gpresult /r 
+```
+
+**Result**
+
+- The expected Group Policy appeared under **Applied Group Policy Objects**. 
+- The configured policy settings were successfully applied.
+
+--- 
 
