@@ -57,5 +57,19 @@ Add the required PowerShell commands to:
 
 ![Create Script](screenshots/02-create-script.png)
 
+---
+
+### Step 3 - Save the Script
+
+Save the script as:
+
+```text
+CreateUsers.ps1
+```
+
+---
+
+
+
 
 
