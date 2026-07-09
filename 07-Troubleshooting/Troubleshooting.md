@@ -85,4 +85,45 @@ Preferred DNS Server: 192.168.56.10
 
 ---
 
+# Scenario 3 – Incorrect DNS Configuration 
+
+## Issue 
+
+The client could not resolve the Active Directory domain because the DNS configuration was incorrect. 
+
+## Investigation 
+
+I verified the DNS settings. 
+
+```powershell 
+ipconfig /all 
+``` 
+
+I then tested DNS resolution. 
+
+```powershell 
+nslookup homelab.local 
+``` 
+
+Finally, I compared the DNS configuration against the Domain Controller.
+
+## Resolution 
+
+I updated the client's Preferred DNS Server to the Domain Controller. 
+
+```text 
+192.168.56.10 
+``` 
+
+## Verification 
+
+```powershell 
+nslookup homelab.local 
+``` 
+
+**Result** 
+
+- The domain resolved successfully. 
+- The client could locate Active Directory services.
+
 
