@@ -39,5 +39,23 @@ Open **Windows PowerShell** as **Administrator**.
 
 ---
 
+### 2. Create the Script
+
+Create a new PowerShell script named:
+
+```text
+CreateUsers.ps1
+```
+
+Add the required PowerShell commands to:
+
+- Import the Active Directory module.
+- Create a secure password.
+- Create one or more Active Directory users.
+- Place users into the correct Organizational Unit.
+- Enable the accounts.
+
+![Create Script](screenshots/02-create-script.png)
+
 
 
