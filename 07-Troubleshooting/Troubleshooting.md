@@ -43,5 +43,46 @@ ping 192.168.56.10
 
 ---
 
+# Scenario 2 – Domain Join Failed
+
+## Issue
+
+The Windows 11 client was unable to join the `homelab.local` domain.
+
+## Investigation 
+
+I completed the following checks: 
+
+- Verified network connectivity. 
+
+```powershell 
+ping 192.168.56.10 
+```
+
+- Reviewed the client's network configuration. 
+
+```powershell 
+ipconfig /all 
+``` 
+
+- Checked the configured DNS server. 
+- Confirmed that **Active Directory Domain Services (AD DS)** and **DNS Server** were installed and running on the Domain Controller.
+
+## Resolution
+
+The client was configured to use an incorrect DNS server. I updated the Preferred DNS Server to the Domain Controller's IP address.
+
+```text 
+Preferred DNS Server: 192.168.56.10 
+```
+
+## Verification
+
+- Successfully joined `homelab.local`.
+- Restarted the client.
+- Logged in using a domain account.
+- Confirmed the computer appeared in **Active Directory Users and Computers**.
+
+---
 
 
