@@ -19,4 +19,5 @@ I performed the following checks:
 - Verified the IP configuration on both the server and client. 
 
 ```powershell 
-ipconfig /all ```
+ipconfig /all 
+```
