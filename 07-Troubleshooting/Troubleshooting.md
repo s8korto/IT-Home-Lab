@@ -21,3 +21,8 @@ I performed the following checks:
 ```powershell 
 ipconfig /all 
 ```
+
+- Confirmed both virtual machines were using the same **Host-Only Adapter**. 
+- Verified both machines were on the same subnet. 
+- Reviewed the VirtualBox network adapter settings.
+
