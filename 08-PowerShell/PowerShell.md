@@ -29,6 +29,15 @@ Set-ExecutionPolicy RemoteSigned
 
 ---
 
+## Steps 
+
+### 1. Open Windows PowerShell
+
+Open **Windows PowerShell** as **Administrator**.
+
+![Open Powershell](screenshots/01-open-powershell.png)
+
+---
 
 
 
