@@ -107,6 +107,17 @@ Get-ADUser gjames
 
 ![Verify](screenshots/05-verify.png)
 
+---
+
+## Script
+
+The complete PowerShell script can be found here:
+
+```text
+08-PowerShell/
+└── CreateUsers.ps1
+```
+
 
 
 
