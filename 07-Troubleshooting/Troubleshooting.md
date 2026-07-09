@@ -170,3 +170,13 @@ gpresult /r
 
 --- 
 
+# Lessons Learned 
+
+Through building this home lab, I learned that: 
+
+- DNS is one of the most important services in an Active Directory environment. 
+- Always verify basic network connectivity before investigating more complex issues. 
+- Tools such as `ping`, `ipconfig`, `nslookup`, `gpupdate`, and `gpresult` are essential for troubleshooting Windows networks. 
+- Following a structured troubleshooting process makes it easier to identify and resolve issues. 
+- Careful verification after implementing a fix helps confirm the issue has been fully resolved.
+
