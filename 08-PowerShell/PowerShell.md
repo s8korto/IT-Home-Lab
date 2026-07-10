@@ -117,10 +117,12 @@ Get-ADUser gjames
 
 Expected result:
 
+```text
 DistinguishedName : CN=Gordon James,OU=IT,DC=homelab,DC=local
 Enabled           : True
 Name              : Gordon James
 SamAccountName    : gjames
+```
 
 ![Verify](screenshots/05-verify.png)
 
