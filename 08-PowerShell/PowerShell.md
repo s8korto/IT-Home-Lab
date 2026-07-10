@@ -27,6 +27,8 @@ If necessary, allow locally created scripts to run:
 Set-ExecutionPolicy RemoteSigned
 ```
 
+This allows locally created PowerShell scripts to run while still requiring downloaded scripts to be digitally signed.
+
 ---
 
 ## Steps 
@@ -56,6 +58,10 @@ Add the required PowerShell commands to:
 - Enable the accounts.
 
 ![Create Script](screenshots/02-create-script.png)
+
+**note**
+
+Import the Active Directory module so PowerShell can use AD cmdlets such as New-ADUser.
 
 ---
 
