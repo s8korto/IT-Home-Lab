@@ -31,3 +31,20 @@ This project showcases a Windows Server 2022 home lab built in VirtualBox to dem
 | **Server** | Windows Server 2022 Standard |
 | **Client** | Windows 11 Enterprise |
 | **Domain** | `homelab.local` |
+
+---
+
+## Project Structure
+
+```
+01-Windows-Server-Installation
+02-Active-Directory
+03-User-Management
+04-Group-Policy
+05-Domain-Join
+06-Network-Diagram
+07-Troubleshooting
+08-PowerShell
+```
+
+Each section documents the configuration process, verification steps, troubleshooting, and key concepts learned throughout the project.
