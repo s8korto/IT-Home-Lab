@@ -140,7 +140,6 @@ The complete PowerShell script can be found here:
 ## Key Takeaways
 
 - Used the **ActiveDirectory** PowerShell module to create user accounts.
-- Created user accounts faster than using the graphical interface.
 - Used secure passwords when creating accounts.
 - Verified successful user creation using both Active Directory Users and Computers and PowerShell.
 
