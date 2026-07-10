@@ -50,3 +50,13 @@ This project showcases a Windows Server 2022 home lab built in VirtualBox to dem
 ```
 
 Each section documents the configuration process, verification steps, troubleshooting, and key concepts learned throughout the project.
+
+---
+
+## Project Highlights
+
+### Active Directory
+
+Created an Active Directory domain (`homelab.local`), organizational units, users, and security groups.
+
+![Active Directory Users and Computers](screenshots/14-active-directory-users-computers.png)
