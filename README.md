@@ -59,4 +59,4 @@ Each section documents the configuration process, verification steps, troublesho
 
 Created an Active Directory domain (`homelab.local`), organizational units, users, and security groups.
 
-![Active Directory Users and Computers](screenshots/14-active-directory-users-computers.png)
+![Active Directory Users and Computers](02-Active-Directory/screenshots/14-active-directory-users-computers.png)
