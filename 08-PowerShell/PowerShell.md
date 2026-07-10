@@ -39,6 +39,10 @@ Open **Windows PowerShell** as **Administrator**.
 
 ![Open Powershell](screenshots/01-open-powershell.png)
 
+**why** 
+
+Running PowerShell as Administrator ensures the script has sufficient permissions to create Active Directory objects.
+
 ---
 
 ### 2. Create the Script
@@ -91,7 +95,7 @@ Execute the script:
 .\CreateUsers.ps1
 ```
 
-If successful, the users will be created in Active Directory.
+If the script runs without errors, the new user accounts should appear in the specified Organizational Units (OUs) in Active Directory Users and Computers. You can also confirm the accounts using the Get-ADUser cmdlet.
 
 ![User Created](screenshots/04-users-created.png)
 
@@ -110,6 +114,13 @@ or
 ```powershell
 Get-ADUser gjames
 ```
+
+Expected result:
+
+DistinguishedName : CN=Gordon James,OU=IT,DC=homelab,DC=local
+Enabled           : True
+Name              : Gordon James
+SamAccountName    : gjames
 
 ![Verify](screenshots/05-verify.png)
 
