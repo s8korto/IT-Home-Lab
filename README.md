@@ -67,3 +67,10 @@ Created an Active Directory domain (`homelab.local`), organizational units, user
 Configured and applied Group Policy Objects (GPOs) to centrally manage user settings.
 
 ![Linked Group Policy](04-Group-Policy/screenshots/07-linked-policy.png)
+
+---
+
+### Domain Join
+Joined a Windows 11 client to the Active Directory domain and verified successful authentication.
+
+![Change Member](screenshots/04-change-member.png)
