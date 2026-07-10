@@ -19,3 +19,15 @@ This project showcases a Windows Server 2022 home lab built in VirtualBox to dem
 - PowerShell Automation
 - Network Troubleshooting
 - VirtualBox Virtualization
+
+---
+
+## Lab Environment
+
+| Component | Details |
+|----------|---------|
+| **Host OS** | macOS |
+| **Hypervisor** | VirtualBox |
+| **Server** | Windows Server 2022 Standard |
+| **Client** | Windows 11 Enterprise |
+| **Domain** | `homelab.local` |
