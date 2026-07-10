@@ -74,3 +74,10 @@ Configured and applied Group Policy Objects (GPOs) to centrally manage user sett
 Joined a Windows 11 client to the Active Directory domain and verified successful authentication.
 
 ![Change Member](05-Domain-Join/screenshots/04-change-member.png)
+
+---
+
+### PowerShell Automation
+Automated Active Directory user creation using PowerShell.
+
+![Create Script](08-PowerShell/screenshots/02-create-script.png)
