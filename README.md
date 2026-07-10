@@ -73,4 +73,4 @@ Configured and applied Group Policy Objects (GPOs) to centrally manage user sett
 ### Domain Join
 Joined a Windows 11 client to the Active Directory domain and verified successful authentication.
 
-![Change Member](screenshots/04-change-member.png)
+![Change Member](05-Domain-Join/screenshots/04-change-member.png)
